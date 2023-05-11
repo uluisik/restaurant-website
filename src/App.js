@@ -1,9 +1,15 @@
 import { Link } from "react-router-dom";
 import "./App.css";
-import BannerImage from "./assets/banner.jpg";
+// import BannerImage from "./assets/banner.jpg";
+
 function App() {
   return (
-    <div className="home" style={{ backgroundImage: `url(${BannerImage})` }}>
+    <div
+      className="home"
+      style={{
+        backgroundImage: `url("https://boomburgers.com/images/meetus/cover.jpg")`,
+      }}
+    >
       <div className="headerContainer">
         <h1>Burger 33</h1>
         <p>
